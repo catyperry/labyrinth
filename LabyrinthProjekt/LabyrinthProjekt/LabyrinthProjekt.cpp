@@ -2,10 +2,13 @@
 //
 
 #include "stdafx.h"
+#include "conio.h"
 #include "Change.h"
 #include "Objekt.h"
 #include "Logik.h"
 #include "UserInterface.h"
+
+
 
 int main()
 {
@@ -26,6 +29,8 @@ int main()
 		logik.updateChanges(ui.intChanges);
 
 		mainloop -= 1;
+
+		_getch();
 	}
 
 
