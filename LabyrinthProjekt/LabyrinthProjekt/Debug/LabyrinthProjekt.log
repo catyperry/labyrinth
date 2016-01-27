@@ -1,4 +1,6 @@
 ﻿  stdafx.cpp
+  UserInterface.cpp
+  Logik.cpp
   LabyrinthProjekt.cpp
   Objekt.cpp
   Change.cpp
